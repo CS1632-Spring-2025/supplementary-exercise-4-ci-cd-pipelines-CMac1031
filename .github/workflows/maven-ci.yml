@@ -94,7 +94,7 @@ jobs:
 
       - name: Build and analyze
         env:
-          SONAR_TOKEN: name: Maven CI
+          SONAR_TOKEN: name: SONAR_TOKEN
 
 # Triggers manually or on push or pull request on the main branch
 # (in other words, on a code integration event.)
