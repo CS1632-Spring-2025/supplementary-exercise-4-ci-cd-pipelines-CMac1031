@@ -59,7 +59,7 @@ jobs:
   update_dependence_graph:
 
     # Waits for Maven tests to finish before running
-    needs: maven_test
+    needs: [maven_test]
 
     runs-on: ubuntu-latest
 
